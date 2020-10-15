@@ -1,0 +1,76 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Page Title</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+	<div data-role="page" id="CoffeeManu" >
+
+                <div data-role="header" data-position="fixed" style="background-color:chocolate " >
+                        <h1>COFFEE</h1>
+                        <a href="index.html" rel="external" 
+                                class="ui-btn ui-corner-all ui-btn-inline ui-mini footer-button-left ui-btn-icon-left ui-icon-power">BACK</a>
+                </div><!--/header-->
+
+                <div role="main" class="ui-content" style="text-align: center">
+                        <ul data-role="listview" data-inset="true">
+                        <li><a href="#Latte">
+                        <img src="./coffee/coffee1.png">
+                                <span class="ui-li-count" style="color: #fff;background-color:orangered">$120</span>
+                                 <h2>Latte</h2>
+                                <p>Hot-cool</p></a>
+                        </li>
+                         <li><a href="#">   
+                                <img src="./coffee/coffee3.png">
+                                <span class="ui-li-count" style="color: #fff;background-color:orangered">$120</span>
+                                <h2>Americano</h2>
+                                <p>Hot-cool</p></a>
+                        </li>    
+                        <li><a href="#">   
+                                <img src="./coffee/coffee6.png">
+                                <span class="ui-li-count" style="color: #fff;background-color:orangered">$100</span>
+                                <h2>Cappuccino</h2>
+                                <p>Hot</p></a>
+                        </li>
+                        <li><a href="#">
+                                <img src="./coffee/coffee5.png" >
+                                <span class="ui-li-count" style="color: #fff;background-color:orangered">$100</span>
+                                <h2>Mocha</h2>
+                                <p>Hot</p></a>
+                        </li>
+                        <li><a href="#">
+                                <img src="./coffee/coffee7.png">
+                                <span class="ui-li-count" style="color: #fff;background-color:orangered">$100</span>
+                                <h2>Espresso</h2>
+                                <p>Hot</p></a>
+                        </li>
+                        </ul>            
+                </div>
+                <div data-role="footer" data-position="fixed">
+                        <h4>Page Footer</h4>
+                </div><!-- /footer -->
+    </div><!-- /page -->
+
+    <div data-role="page" id="Latte">
+
+        <div data-role="header" data-position="fixed" style="background-color:chocolate " >
+                <h1>Latte</h1>
+                <a href="#CoffeeManu" class="ui-btn ui-corner-all ui-btn-inline ui-mini footer-button-left ui-btn-icon-left ui-icon-power">BACK</a>
+                </div><!-- /header -->
+            
+                <div role="main" class="ui-content" style="text-align: center">
+                        <img src="./coffee/coffee1.png" width="20%" >
+                        <p><a href="#CoffeeManu"data-transition="pop">Back to menu</a></p>
+                </div><!-- /content -->
+            
+                <div data-role="footer" data-position="fixed">
+                    <h4>Page Footer</h4>
+                </div><!-- /footer -->
+        </div><!-- /page -->
+</body>
+</html>
